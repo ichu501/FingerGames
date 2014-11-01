@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F07073C41A0370A700FD3236 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07073C31A0370A700FD3236 /* PinchViewController.m */; };
+		F07073C51A0372DE00FD3236 /* DigitDanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07073C01A03520800FD3236 /* DigitDanceViewController.m */; };
+		F07073C61A0372F900FD3236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D9DABA1A02BD6400789187 /* Main.storyboard */; };
+		F07073C71A03730100FD3236 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0D9DABF1A02BD6400789187 /* LaunchScreen.xib */; };
+		F0B594571A046F5E00055EE4 /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B594561A046F5E00055EE4 /* smiley.png */; };
 		F0D9DAB01A02BD6400789187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9DAAF1A02BD6400789187 /* main.m */; };
 		F0D9DAB31A02BD6400789187 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9DAB21A02BD6400789187 /* AppDelegate.m */; };
 		F0D9DAB61A02BD6400789187 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9DAB51A02BD6400789187 /* FirstViewController.m */; };
 		F0D9DAB91A02BD6400789187 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9DAB81A02BD6400789187 /* SecondViewController.m */; };
-		F0D9DABC1A02BD6400789187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D9DABA1A02BD6400789187 /* Main.storyboard */; };
 		F0D9DABE1A02BD6400789187 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D9DABD1A02BD6400789187 /* Images.xcassets */; };
-		F0D9DAC11A02BD6400789187 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0D9DABF1A02BD6400789187 /* LaunchScreen.xib */; };
 		F0D9DACD1A02BD6400789187 /* FingerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9DACC1A02BD6400789187 /* FingerciseTests.m */; };
+		F0DE68921A031F6900E4E449 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DE68911A031F6900E4E449 /* ThirdViewController.m */; };
+		F0DE689D1A0326BE00E4E449 /* theBroomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DE689C1A0326BE00E4E449 /* theBroomViewController.m */; };
+		F0DE68A31A0327CF00E4E449 /* roofClean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DE68A21A0327CF00E4E449 /* roofClean.jpg */; };
+		F0DE68A51A0327D400E4E449 /* roofDirty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DE68A41A0327D400E4E449 /* roofDirty.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F07073BF1A03520800FD3236 /* DigitDanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitDanceViewController.h; sourceTree = "<group>"; };
+		F07073C01A03520800FD3236 /* DigitDanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigitDanceViewController.m; sourceTree = "<group>"; };
+		F07073C21A0370A700FD3236 /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		F07073C31A0370A700FD3236 /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		F0B594561A046F5E00055EE4 /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley.png; sourceTree = "<group>"; };
 		F0D9DAAA1A02BD6300789187 /* Fingercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fingercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D9DAAE1A02BD6400789187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0D9DAAF1A02BD6400789187 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +55,12 @@
 		F0D9DAC61A02BD6400789187 /* FingerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D9DACB1A02BD6400789187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0D9DACC1A02BD6400789187 /* FingerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerciseTests.m; sourceTree = "<group>"; };
+		F0DE68901A031F6900E4E449 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F0DE68911A031F6900E4E449 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F0DE689B1A0326BE00E4E449 /* theBroomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theBroomViewController.h; sourceTree = "<group>"; };
+		F0DE689C1A0326BE00E4E449 /* theBroomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theBroomViewController.m; sourceTree = "<group>"; };
+		F0DE68A21A0327CF00E4E449 /* roofClean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roofClean.jpg; sourceTree = "<group>"; };
+		F0DE68A41A0327D400E4E449 /* roofDirty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roofDirty.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +109,17 @@
 				F0D9DAB71A02BD6400789187 /* SecondViewController.h */,
 				F0D9DAB81A02BD6400789187 /* SecondViewController.m */,
 				F0D9DABA1A02BD6400789187 /* Main.storyboard */,
+				F07073C21A0370A700FD3236 /* PinchViewController.h */,
+				F07073C31A0370A700FD3236 /* PinchViewController.m */,
+				F07073BF1A03520800FD3236 /* DigitDanceViewController.h */,
+				F07073C01A03520800FD3236 /* DigitDanceViewController.m */,
+				F0B594561A046F5E00055EE4 /* smiley.png */,
+				F0DE689B1A0326BE00E4E449 /* theBroomViewController.h */,
+				F0DE689C1A0326BE00E4E449 /* theBroomViewController.m */,
+				F0DE68A21A0327CF00E4E449 /* roofClean.jpg */,
+				F0DE68A41A0327D400E4E449 /* roofDirty.jpg */,
+				F0DE68901A031F6900E4E449 /* ThirdViewController.h */,
+				F0DE68911A031F6900E4E449 /* ThirdViewController.m */,
 				F0D9DABD1A02BD6400789187 /* Images.xcassets */,
 				F0D9DABF1A02BD6400789187 /* LaunchScreen.xib */,
 				F0D9DAAD1A02BD6300789187 /* Supporting Files */,
@@ -204,8 +233,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0D9DABC1A02BD6400789187 /* Main.storyboard in Resources */,
-				F0D9DAC11A02BD6400789187 /* LaunchScreen.xib in Resources */,
+				F07073C71A03730100FD3236 /* LaunchScreen.xib in Resources */,
+				F07073C61A0372F900FD3236 /* Main.storyboard in Resources */,
+				F0DE68A51A0327D400E4E449 /* roofDirty.jpg in Resources */,
+				F0DE68A31A0327CF00E4E449 /* roofClean.jpg in Resources */,
+				F0B594571A046F5E00055EE4 /* smiley.png in Resources */,
 				F0D9DABE1A02BD6400789187 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,7 +256,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07073C51A0372DE00FD3236 /* DigitDanceViewController.m in Sources */,
 				F0D9DAB91A02BD6400789187 /* SecondViewController.m in Sources */,
+				F07073C41A0370A700FD3236 /* PinchViewController.m in Sources */,
+				F0DE68921A031F6900E4E449 /* ThirdViewController.m in Sources */,
+				F0DE689D1A0326BE00E4E449 /* theBroomViewController.m in Sources */,
 				F0D9DAB31A02BD6400789187 /* AppDelegate.m in Sources */,
 				F0D9DAB61A02BD6400789187 /* FirstViewController.m in Sources */,
 				F0D9DAB01A02BD6400789187 /* main.m in Sources */,
@@ -350,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fingercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fingercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +456,7 @@
 				F0D9DAD21A02BD6400789187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0D9DAD31A02BD6400789187 /* Build configuration list for PBXNativeTarget "FingerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +465,7 @@
 				F0D9DAD51A02BD6400789187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,5 +11,10 @@
 @interface FirstViewController : UIViewController
 
 
+// buttons to launch exercises
+@property (strong, nonatomic) IBOutlet UIButton *ex3Button;
+@property (strong, nonatomic) IBOutlet UIButton *ex2Button;
+@property (strong, nonatomic) IBOutlet UIButton *ex1Button;
+
 @end
 
